@@ -75,7 +75,6 @@ public class RemoteModelConfig extends BaseModelConfig {
             null
         );
         if (validate) {
-            validateNoDuplicateKeys(allConfig, additionalConfig);
             validateTextEmbeddingConfig();
         }
     }
